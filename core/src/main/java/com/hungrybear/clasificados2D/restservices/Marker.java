@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Marker {
+    private int id;
     private float lat;
     private float lng;
 }
