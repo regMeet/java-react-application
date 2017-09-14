@@ -12,7 +12,3 @@ export function fetchMarkers() {
         payload: request
     };
 }
-
-export function updateMarker(marker, fields) {
-}
-

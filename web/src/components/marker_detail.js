@@ -10,7 +10,7 @@ const MarkerDetail = ( {marker, update}) => {
             <div>
                 Longitud {marker.lng}
             </div>
-            <div><button onClick={() => update(marker)}>Update</button></div>
+            <div><button onClick={() => update(marker)}>Console info</button></div>
         </li>
     );
 
